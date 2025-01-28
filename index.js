@@ -1,2 +1,2 @@
 // console
-console.log(cheese)
+console.log("cheese")
