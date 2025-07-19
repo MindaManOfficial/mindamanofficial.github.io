@@ -1,57 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
 
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://cdn.glitch.global/aa259437-3aee-46e8-91b3-7e7dbaebb8fe/original.png?v=1746239523244" />
+    <link rel="icon" href="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/07345fe43bd27eeec13f46f411d02efb2a5dd2db/assets/little%20critter.png" />
 
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>In Development</title>
+    <title>MindaMan</title>
 
     <!-- The website stylesheet -->
     <link rel="stylesheet" href="/style.css" />
 
     <!-- The website JavaScript file -->
     <script src="/script.js" defer></script>
+
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
   </head>
-  <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">In Development</h1>
-        <img
-          src="https://cdn.glitch.global/aa259437-3aee-46e8-91b3-7e7dbaebb8fe/little%20critter.png?v=1743909853892"
-          class="illustration"
-          alt="mindaman logo"
-          title="don't click me please"
-        />
-        <div class="instructions">
-          <h2>ermtosis:</h2>
-          <p>
-This website is under major development at the moment so please be patient!
-            -MindaMan
-          </p>
-      
-          <p>
-            This would be the home page however :P
-          </p>
-          
-        </div>
-      </div>
+
+
+
+
+<!-- Website Header -->
+  <header>
+
+    <div class="head-name">
+      <a href="https://mindaman.com"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/cropped-nobg.png" alt="mindaman-logo" style=height:70px;><h1> MindaMan</h1></a>
     </div>
 
+    <div class="head-dir">
+      <a href="https://mindaman.com/about">About</a>
+      <a href="https://mindaman.com/schedule">Schedule</a>
+      <a href="https://mindaman.com/directory">Directory</a>
+      <a href="https://mindaman.com/contact">Contact</a>
+    </div>
+
+    <div class="head-social">
+      <a href="https://youtube.com/@mindaman?sub_confirmation=1"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/social-icons/x512/youtube_icon_bg.png" alt="youtube-logo" style=height:40px;></a>
+      <a href="https://twitch.tv/mindamanreal"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/social-icons/x512/twitch_icon_bg.png" alt="twitch-logo" style=height:40px;></a>
+      <a href="https://discord.gg/7WVyvzZDPU"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/social-icons/x512/discord_icon_bg.png" alt="discord-logo" style=height:40px;></a>
+      <a href="https://namemc.com/profile/MindaMann.1"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/social-icons/x512/minecraft_icon_bg.png" alt="minecraft-logo" style=height:40px;></a>
+      <a href="https://github.com/MindaManOfficial"> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/bd259d078475a61e4ec28d23891c172c91d81b78/assets/social-icons/x512/github_icon_bg.png" alt="github-logo" style=height:40px;></a>
+    </div>
+  </header>
+
+  <!-- Website Body-->
+  <body>
+
+    <div class="news">THIS WEBSITE IS IN DEVELOPMENT. LAST UPDATED: 7/6/2025</div>
+
+    <div class="twitch" id="twitch-embed">      
+      <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+        width: 1000,
+        height: 500,
+        channel: "mindamanreal",
+        // Only needed if this page is going to be embedded on other websites
+        parent: ["embed.example.com", "othersite.example.com"]
+       });
+     </script>
+    </div>
+
+    <div class="youtube"></div>
+    <div class="follower-counters"></div>
+    <div class="devlog"></div>
   </body>
+
+  <!-- Website Footer -->
+  <footer>
+
+  <div class="col-1">
+    <div class="name">
+      <h3><div class="text">MindaMan</div> <img src="https://rawcdn.githack.com/MindaManOfficial/mindamanofficial.github.io/64ba2acc83297942a57b636b47b5db030219f4c0/assets/minda.png" alt="mindaman-logo" style=width:55px;> 
+    </div>
+    <a href="https://mindaman.com/schedule">Schedule</a> |
+    <a href="https://mindaman.com/contact"> Contact Me</a>
+  </div>
+
+  <div class="col-2">
+    <h3>Useful Pages</h3>
+    <a href="https://mindaman.com/dir">Website Directory</a>
+    <a href="https://mindaman.com/sociallinks">Social Links</a>
+    <a href="https://mindaman.com/about">About Me</a>
+    <a href="https://mindaman.com/faq">FAQ</a>
+    <a href="https://mindaman.com/projects">My Projects</a>
+    <a href="https://mindaman.com/credits">Credits</a>
+  </div>
+
+  <div class="col-3">
+    <p>©2018-2025 MindaMan</p>
+    &nbsp;
+    <div class="terms">
+    <p> MindaMan and its associated creations,</p>
+    <p>logos, and assets are all copyrighted</p>
+    <p>works and are subject to the terms</p>
+    <p>of their respective owner.</p>
+    &nbsp;
+    <p> Please <a href="https://mindaman.com/contact"> contact</a> me before usage of</p>
+    <p> my assets!</p>
+    </div>
+
+  </div>
+
+</footer>
 </html>
